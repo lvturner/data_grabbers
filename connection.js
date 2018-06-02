@@ -1,5 +1,5 @@
 let host = process.env.DB_HOST;
-let db = process.env.DATABASE;
+let db = process.env.DB_NAME;
 let username = process.env.DB_USER;
 let password = process.env.DB_PASSWORD;
 const Sequelize = require('sequelize');
